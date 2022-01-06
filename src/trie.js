@@ -21,6 +21,8 @@ Trie.prototype.nodeAt = function nodeAt(key) {
   return node;
 };
 
+//some comments
+
 Trie.prototype.get = function get(key) {
   const node = this.nodeAt(key);
 
